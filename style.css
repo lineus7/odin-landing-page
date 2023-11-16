@@ -1,0 +1,141 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    padding: 8px 200px 48px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right1{
+    width: 600px;
+    height: 200px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 24px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+
+}
+.information {
+    text-align: center;
+    font-size: 18px;
+}
+.blank {
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.c3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 24px 150px;
+}
+
+.c4 {
+    padding: 24px 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    flex: auto;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 12px 48px;
+    justify-content: center;
+    align-items: center ;
+    gap: 48px;
+    max-width: 800px;
+}
+
+.left2{
+    color: white;
+}
+
+.right2 button {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px;
+    text-align: center;
+    color: white;
+}
